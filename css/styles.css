@@ -1,0 +1,44 @@
+body {
+  position: relative;
+}
+ul.nav-pills {
+  top: 20px;
+  position: fixed;
+}
+ul.nav-pills > .active > a,
+ul.nav-pills > .active > a:hover {
+  /* background-color: currentColor; */
+  text-decoration: underline;
+}
+#navigation {
+  background-color: purple;
+}
+div.col-sm-9 div {
+  height: 250px;
+  font-size: 28px;
+}
+#about {
+  color: #fff;
+  background-color: #1e88e5;
+}
+#practice {
+  color: #fff;
+  background-color: #673ab7;
+}
+#publications {
+  color: #fff;
+  background-color: #ff9800;
+}
+#contact {
+  color: #fff;
+  background-color: #00bcd4;
+}
+
+@media screen and (max-width: 810px) {
+  #about,
+  #practice,
+  #publications,
+  #contact {
+    margin-left: 150px;
+  }
+}
