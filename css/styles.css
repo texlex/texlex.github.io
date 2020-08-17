@@ -14,41 +14,19 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
-ul.nav-pills {
-  top: 20px;
-  position: fixed;
-}
-
-div.col-sm-9 div {
-  height: 250px;
-  font-size: 20px;
-}
-
-/* h1 {
-  font-size: 40px;
-} */
 
 .row {
   height: 100vh;
 }
-#aboutText :not(#app),
+#aboutText,
 #aboutText > * {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-/* #practice {
-  color: #fff;
-  background-color: #673ab7;
-} */
-/* #publications {
-  color: #fff;
-  background-color: #ff9800;
-} */
-/* #contact {
-  color: #fff;
-  background-color: #00bcd4;
-} */
 
+figure figcaption {
+  text-align: center;
+}
 @media screen and (max-width: 810px) {
   #about,
   #practice,
