@@ -1,38 +1,53 @@
+:root {
+  --blue: rgb(12, 131, 155);
+  --pink: rgb(230, 57, 120);
+  --orange: rgb(219, 118, 3);
+  --purple: rgb(183, 148, 250);
+  --yellow: rgb(245, 229, 91);
+  --green: rgb(136, 194, 19);
+  --white: rgb(231, 231, 222);
+  --black: #1e1e22;
+}
+
 body {
   position: relative;
+  background-color: var(--black);
+  color: var(--white);
 }
 ul.nav-pills {
   top: 20px;
   position: fixed;
 }
-ul.nav-pills > .active > a,
-ul.nav-pills > .active > a:hover {
-  /* background-color: currentColor; */
-  text-decoration: underline;
-}
-#navigation {
-  background-color: purple;
-}
+
 div.col-sm-9 div {
   height: 250px;
-  font-size: 28px;
+  font-size: 20px;
 }
-#about {
-  color: #fff;
-  background-color: #1e88e5;
+
+/* h1 {
+  font-size: 40px;
+} */
+
+.row {
+  height: 100vh;
 }
-#practice {
+#aboutText :not(#app),
+#aboutText > * {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+/* #practice {
   color: #fff;
   background-color: #673ab7;
-}
-#publications {
+} */
+/* #publications {
   color: #fff;
   background-color: #ff9800;
-}
-#contact {
+} */
+/* #contact {
   color: #fff;
   background-color: #00bcd4;
-}
+} */
 
 @media screen and (max-width: 810px) {
   #about,
