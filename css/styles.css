@@ -5,33 +5,35 @@
   --purple: rgb(183, 148, 250);
   --yellow: rgb(245, 229, 91);
   --green: rgb(136, 194, 19);
+  --red: rgb(200, 10, 10);
   --white: rgb(231, 231, 222);
+  --beige: rgb(200, 183, 183);
   --black: #1e1e22;
 }
 
 body {
   position: relative;
   background-color: var(--black);
-  color: var(--white);
+  color: var(--black);
+  padding-top: 100px;
 }
 
-.row {
+a {
+  color: inherit;
+}
+.tall {
   height: 100vh;
 }
-#aboutText,
-#aboutText > * {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+.pop {
+  background-color: rgba(200, 183, 183, 0.85);
+  border-radius: 5px;
 }
-
-figure figcaption {
-  text-align: center;
+#app {
+  font-size: x-large;
+  font-family: "American Typewriter";
 }
-@media screen and (max-width: 810px) {
-  #about,
-  #practice,
-  #publications,
-  #contact {
-    margin-left: 150px;
-  }
+.Typewriter__wrapper,
+.Typewriter__cursor {
+  color: var(--beige);
+  font-size: x-large;
 }
