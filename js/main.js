@@ -13,18 +13,11 @@ typewriter
   .pauseFor(2500)
   .deleteAll()
   .typeString(
-    'I am a <span style="color:var(--blue); font-weight:bold;">litigator</span>.'
+    'I am <span style="color:var(--blue); font-weight:bold;">board certified</span> in civil trial law.'
   )
   .pauseFor(500)
-  .deleteChars(10)
-  .typeString(
-    '<span style="color:var(--blue); font-weight:bold;">trademark attorney</span>.'
-  )
-  .pauseFor(1000)
-  .deleteChars(25)
-  .typeString(
-    '<span style="color:red; font-weight:bold;">fight</span> for my clients.'
-  )
+  .deleteAll()
+  .typeString("Let me know how I can help you.")
   .pauseFor(2000)
   .start();
 
